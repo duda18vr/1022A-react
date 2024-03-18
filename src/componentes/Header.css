@@ -1,0 +1,28 @@
+Header{
+    height: 20rem;
+    background-color: rgb(85, 185, 59);
+    color: rgb(197, 223, 102);
+    display: flex;
+    padding: 0px 10vw;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 3rem;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 0.1rem solid;
+    border-radius: 0.2rem; 
+    padding: 0.8rem 1rem;
+}
